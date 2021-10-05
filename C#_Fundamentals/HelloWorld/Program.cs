@@ -20,8 +20,8 @@ namespace HelloWorld
             Console.WriteLine(Oisin.Owner);
 
             Console.WriteLine("How old are you?");
-            string age = Console.ReadLine();
-            Console.WriteLine("You are " + age + " years old.");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("you are " + age + " years old");
         }
     }
 }
